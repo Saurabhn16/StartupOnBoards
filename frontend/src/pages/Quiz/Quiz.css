@@ -1,0 +1,264 @@
+.quiz-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+
+    border-radius: 10px;
+
+}
+
+.section-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.start-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.quiz-section {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    /* Adjust the gap between sections */
+}
+
+.quiz-details {
+    display: flex;
+    gap: 20px;
+    /* Adjust the gap between image and content */
+}
+
+.quiz-image {
+    width: 200px;
+    /* Adjust image size */
+    height: auto;
+}
+
+.benefits-card {
+    flex: 1;
+
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+}
+
+.benefits-card ul {
+    padding-left: 20px;
+}
+
+.benefits-card li {
+    margin-bottom: 10px;
+}
+
+.action-text {
+    margin-top: 20px;
+}
+
+.quiz-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.result-text {
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.result-card {
+    padding: 15px;
+
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    animation: slideIn 0.5s ease-in-out;
+}
+
+.result-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.user-answer {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.correct-answer {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.incorrect-answer {
+    font-weight: bold;
+    color: #dc3545;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.quiz-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Timer */
+.timer {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Question Card */
+.question-card {
+ 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Options */
+.options {
+  margin-bottom: 20px;
+}
+
+.option-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option-button:hover {
+  background-color: #e0e0e0;
+}
+
+.option-button.selected {
+  background-color: #4caf50;
+  color: #fff;
+  border-color: #4caf50;
+}
+
+.option-button.selected:hover {
+  background-color: #45a049;
+}
+
+/* Next Button */
+.next-button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #a55e35;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.next-button:hover {
+    background-color: #0056b3;
+  }
+.submit-button:hover {
+    background-color: #b34200;
+  }
+
+.next-button:disabled,
+.submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Result Card */
+.result-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.result-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.result-card p {
+  margin-bottom: 5px;
+}
+
+.correct-answer {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.incorrect-answer {
+  color: #f44336;
+  font-weight: bold;
+}

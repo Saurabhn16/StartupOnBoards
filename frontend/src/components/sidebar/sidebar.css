@@ -1,0 +1,26 @@
+/* Sidebar container */
+.sidebar {
+    border-right: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Divider styles */
+  .divider {
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      width: 100%; /* Full width on smaller screens */
+      border-right: none; /* Remove border on small screens */
+      border-bottom: 1px solid #ccc; /* Add border at the bottom for separation */
+      padding: 10px 0; /* Adjust padding */
+    }
+    
+    .divider {
+      display: none; /* Hide divider on small screens */
+    }
+  }
+  

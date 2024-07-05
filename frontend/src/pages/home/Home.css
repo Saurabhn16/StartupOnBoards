@@ -1,0 +1,217 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+header {
+  background-color: rgb(194, 164, 222);
+  padding: 20px 0;
+  font-size: larger;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation styling */
+nav ul {
+  list-style: none;
+  display: flex;
+  font-size: larger;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+  font-size: larger;
+  cursor: pointer;
+  /* margin: 2px 2px 2px 2px; */
+padding: 2px 2px 2px 2px;
+  font-weight: bold;
+  color: #080c10;
+  transition: color 0.3s ease, transform 0.3s ease;
+  position: relative;
+}
+
+nav ul li::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li:hover::after,
+nav ul li.active::after {
+  background-color: #ffffff;
+}
+
+.content-section,
+.subsection {
+  margin-top: 20px; /* Adjust spacing between sections */
+}
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+  border-bottom: 1px solid #ddd;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.content-section img {
+  width: 200px;
+  height: auto;
+}
+
+.image-left {
+  order: 1;
+  margin-right: 20px;
+}
+
+.image-right {
+  order: 2;
+  margin-left: 20px;
+}
+
+.content {
+  flex: 1;
+}
+
+.content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.subsections .subsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.subsection:nth-child(even) .content {
+  order: 2;
+}
+
+.subsection:nth-child(even) img {
+  order: 1;
+  margin-left: 20px;
+}
+
+.subsection:nth-child(odd) img {
+  order: 2;
+  margin-right: 20px;
+}
+
+.subsection:nth-child(odd) .content {
+  order: 1;
+}
+
+.subsection img {
+  width: 150px;
+  height: auto;
+}
+
+.subsection .content {
+  flex: 1;
+}
+
+.subsection .content h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.subsection .content p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+/* Rest of your existing CSS */
+
+/* Hover effect on navigation items */
+nav ul li {
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+nav ul li:hover {
+  color: #0056b3;
+  transform: translateY(-3px); /* Lift up slightly on hover */
+}
+
+/* Hover effect on content sections */
+.content-section {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.content-section:hover {
+  background-color: rgb(194, 164, 222);
+  transform: translateY(-10px); /* Lift up more on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Slightly larger shadow on hover */
+}
+
+/* Hover effect on subsections */
+.subsection {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.subsection:hover {
+  background-color: rgb(194, 164, 222);
+  transform: translateY(-10px); /* Lift up more on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Slightly larger shadow on hover */
+}
+
+/* Hover effect on images */
+.image-left,
+.image-right {
+  transition: filter 0.3s ease-in-out;
+}
+
+.image-left:hover,
+.image-right:hover {
+  filter: grayscale(100%) brightness(70%); /* Grayscale and dim the image on hover */
+}
+
+/* Additional hover effect on section content */
+.content-section .content h2 {
+  transition: color 0.3s ease-in-out;
+}
+
+.content-section:hover .content h2 {
+  color: #007bff; /* Change text color to blue on hover */
+}
+
+.subsection .content h2 {
+  transition: color 0.3s ease-in-out;
+}
+
+.subsection:hover .content h2 {
+  color: #007bff; /* Change text color to blue on hover */
+}

@@ -1,0 +1,108 @@
+[
+    {
+      "question": "What is the capital of France?",
+      "options": ["Paris", "London", "Berlin", "Madrid"],
+      "correctAnswer": "Paris"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+      "correctAnswer": "Mars"
+    },
+    {
+      "question": "Who founded Microsoft?",
+      "options": ["Bill Gates", "Steve Jobs", "Mark Zuckerberg", "Jeff Bezos"],
+      "correctAnswer": "Bill Gates"
+    },
+    {
+      "question": "Which company developed the iPhone?",
+      "options": ["Samsung", "Apple", "Google", "Microsoft"],
+      "correctAnswer": "Apple"
+    },
+    {
+      "question": "What does IPO stand for?",
+      "options": ["Initial Public Offering", "Internet Public Offering", "Initial Product Offering", "International Product Offering"],
+      "correctAnswer": "Initial Public Offering"
+    },
+    {
+      "question": "Who is known as the 'Oracle of Omaha'?",
+      "options": ["Warren Buffett", "Jeff Bezos", "Elon Musk", "Mark Zuckerberg"],
+      "correctAnswer": "Warren Buffett"
+    },
+    {
+      "question": "What is the main product of Tesla?",
+      "options": ["Electric cars", "Smartphones", "Laptops", "Spacecraft"],
+      "correctAnswer": "Electric cars"
+    },
+    {
+      "question": "What does ROI stand for?",
+      "options": ["Return on Investment", "Risk of Inflation", "Revenue over Interest", "Real Output Increase"],
+      "correctAnswer": "Return on Investment"
+    },
+    {
+      "question": "Which of the following is not a type of investment?",
+      "options": ["Stocks", "Bonds", "Debits", "Mutual Funds"],
+      "correctAnswer": "Debits"
+    },
+    {
+      "question": "Who is the CEO of Facebook?",
+      "options": ["Tim Cook", "Sundar Pichai", "Mark Zuckerberg", "Jack Dorsey"],
+      "correctAnswer": "Mark Zuckerberg"
+    },
+    {
+      "question": "What is the currency of Japan?",
+      "options": ["Yuan", "Yen", "Dollar", "Euro"],
+      "correctAnswer": "Yen"
+    },
+    {
+      "question": "Which company owns Instagram?",
+      "options": ["Facebook", "Google", "Apple", "Amazon"],
+      "correctAnswer": "Facebook"
+    },
+    {
+      "question": "Who is the founder of Amazon?",
+      "options": ["Bill Gates", "Jeff Bezos", "Mark Zuckerberg", "Elon Musk"],
+      "correctAnswer": "Jeff Bezos"
+    },
+    {
+      "question": "Which of the following is a cryptocurrency?",
+      "options": ["Dollar", "Bitcoin", "Euro", "Yuan"],
+      "correctAnswer": "Bitcoin"
+    },
+    {
+      "question": "What is the largest stock exchange in the world?",
+      "options": ["NASDAQ", "NYSE", "London Stock Exchange", "Tokyo Stock Exchange"],
+      "correctAnswer": "NYSE"
+    },
+    {
+      "question": "Who invented the World Wide Web?",
+      "options": ["Tim Berners-Lee", "Bill Gates", "Steve Jobs", "Mark Zuckerberg"],
+      "correctAnswer": "Tim Berners-Lee"
+    },
+    {
+      "question": "Which company is known for its search engine?",
+      "options": ["Apple", "Microsoft", "Google", "Amazon"],
+      "correctAnswer": "Google"
+    },
+    {
+      "question": "Who is the CEO of Tesla?",
+      "options": ["Jeff Bezos", "Elon Musk", "Larry Page", "Sergey Brin"],
+      "correctAnswer": "Elon Musk"
+    },
+    {
+      "question": "What is the main product of SpaceX?",
+      "options": ["Electric cars", "Smartphones", "Laptops", "Spacecraft"],
+      "correctAnswer": "Spacecraft"
+    },
+    {
+      "question": "Which of the following is not a social media platform?",
+      "options": ["Twitter", "Facebook", "LinkedIn", "WhatsApp"],
+      "correctAnswer": "WhatsApp"
+    },
+    {
+      "question": "What is the headquarters of Google?",
+      "options": ["San Francisco, USA", "Los Angeles, USA", "Mountain View, USA", "New York City, USA"],
+      "correctAnswer": "Mountain View, USA"
+    }
+  ]
+  

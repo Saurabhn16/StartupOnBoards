@@ -1,0 +1,90 @@
+/* Assuming you have global styles or import your CSS in a different way */
+/* Importing styles.css if you're using global styles */
+/* @import url('styles.css'); */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  height: 100vh; /* Adjust this as needed */
+  overflow: hidden; /* Prevents sidebar from overflowing */
+}
+
+/* Styling for the Sidebar component */
+.sidebar {
+  width: 250px; /* Adjust sidebar width as needed */
+  background-color: #333; /* Sidebar background color */
+  color: #fff; /* Text color */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for the MessageContainer component */
+.message-container {
+  flex: 1; /* Take remaining space */
+  padding: 20px;
+  overflow-y: auto; /* Enable vertical scroll if content exceeds height */
+}
+
+.message-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.message-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.message-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.message-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.message-item p {
+  margin: 0;
+  color: #555;
+}
+
+.message-item .timestamp {
+  font-size: 0.8rem;
+  color: #999;
+}
